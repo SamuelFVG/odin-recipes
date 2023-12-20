@@ -33,6 +33,7 @@ h1 {
 
 a {
   color: #3f2d5f;
+  display: block;
 }
 
 .center-image {
