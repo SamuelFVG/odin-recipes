@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;500&display=swap");
+html {
+  display: flex;
+  justify-content: center;
+
+  font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+  color: #050015;
+}
+
+body {
+  width: 65vw;
+  padding-bottom: 3rem;
+}
+
+img {
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  height: auto;
+  width: 300px;
+}
+
+h1,
+h2 {
+  font-family: "Playpen Sans", serif;
+  font-weight: 500;
+}
+
+h1 {
+  border-bottom: solid currentColor 1px;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  color: #3f2d5f;
+}
+
+.center-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepage-list {
+  list-style-type: none;
+}
